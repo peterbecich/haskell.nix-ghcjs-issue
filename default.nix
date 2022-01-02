@@ -9,5 +9,5 @@ in pkgs.pkgsCross.ghcjs.haskell-nix.project {
     name = "haskell-nix-project";
     src = ./.;
   };
-  compiler-nix-name = "ghc8107";
+  compiler-nix-name = "ghc884";
 }

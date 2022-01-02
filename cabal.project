@@ -1,0 +1,9 @@
+packages:
+  .
+
+source-repository-package
+  type: git
+  location: https://github.com/peterbecich/ghcjs-base
+  tag: 7a401e982ac64a5720ce9835d0be4ada8ae79995
+  --sha256: 1gb1l0a2zpyp1n47bd3q1lywvk9fpw222pln7c6fq5h65cqb9pbp
+
