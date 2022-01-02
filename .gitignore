@@ -1,11 +1,3 @@
-/build/
-/data
-/log/
-/nohup.out
-/codeworld-auth.txt
-/codeworld-auth.db
-/github-auth-token.txt
-/web/clientId.txt
 dist
 dist-*
 .ghc.environment.*
