@@ -21,6 +21,7 @@ in
       cabal = "3.6.2.0";
       hlint = "latest"; # Selects the latest version in the hackage.nix snapshot
       haskell-language-server = "latest";
+      ormolu = "latest";
     };
     # See overlays/tools.nix for more details
 
@@ -28,10 +29,10 @@ in
     buildInputs = [ (import <nixpkgs> {}).git ];
 
     # Sellect cross compilers to include.
-    crossPlatforms = ps: with ps; [
-      ghcjs      # Adds support for `js-unknown-ghcjs-cabal build` in the shell
-      # mingwW64 # Adds support for `x86_64-W64-mingw32-cabal build` in the shell
-    ];
+    # crossPlatforms = ps: with ps; [
+    #   ghcjs      # Adds support for `js-unknown-ghcjs-cabal build` in the shell
+    #   # mingwW64 # Adds support for `x86_64-W64-mingw32-cabal build` in the shell
+    # ];
 
     # Prevents cabal from choosing alternate plans, so that
     # *all* dependencies are provided by Nix.
