@@ -30,8 +30,9 @@ executable ghcjs-example3
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
     build-depends:    base
-                    , ghcjs-base
-                    , ghcjs-dom
-                    , ghcjs-dom-jsffi
+                    -- , ghcjs-base
+                    -- , ghcjs-dom
+                    -- , ghcjs-dom-jsffi
+                    , test-cabal-dependency
     hs-source-dirs:   app
     default-language: Haskell2010
