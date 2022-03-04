@@ -15,4 +15,4 @@ source-repository-package
   type: git
   location: git@github.com:peterbecich/test-cabal-dependency
   tag: 1ae60283e1fcc940bd10c853dbfc5452ce23fc70
-  -- sha256: 17qq9pfz4wxzpij643r8kiqm24159cvhvqr6z6r49hvjia03kslbx
+  --sha256: 17qq9pfz4wxzpij643r8kiqm24159cvhvqr6z6r49hvjia03kslb
