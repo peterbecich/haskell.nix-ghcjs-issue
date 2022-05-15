@@ -1,14 +1,14 @@
 {
     "haskellNix": {
-        "branch": "master",
+        "branch": "ormolu-hackage-quirk",
         "description": "Alternative Haskell Infrastructure for Nixpkgs",
         "homepage": "https://input-output-hk.github.io/haskell.nix",
-        "owner": "input-output-hk",
+        "owner": "peterbecich",
         "repo": "haskell.nix",
-        "rev": "6d6df8044e390d9ec1eef61c38d72f55b6ad0548",
-        "sha256": "0lbp2ni0clhbhv6q7qcyrhcfcyk2nm4d0hxr5y8rg2y5lbcka0si",
+        "rev": "54ee37ba43d27bd4e7f9875c89863abd8bcb4735",
+        "sha256": "0c1c67b4g8w1rc9akw0yg76b8qjj4kzw88rmfflwz0saigv1pjhb",
         "type": "tarball",
-        "url": "https://github.com/input-output-hk/haskell.nix/archive/6d6df8044e390d9ec1eef61c38d72f55b6ad0548.tar.gz",
+        "url": "https://github.com/peterbecich/haskell.nix/archive/54ee37ba43d27bd4e7f9875c89863abd8bcb4735.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
