@@ -31,6 +31,8 @@ executable ghcjs-example3
     -- other-extensions:
     build-depends:    base
                     , ghcjs-dom
+                    , network
+
     hs-source-dirs:   app
     default-language: Haskell2010
 
