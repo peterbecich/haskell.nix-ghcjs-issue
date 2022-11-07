@@ -1,7 +1,0 @@
-packages:
-  .
-
-constraints:
-    ghcjs-base ==0.2.1.0
-  , ghcjs-dom ==0.9.5.0
-
